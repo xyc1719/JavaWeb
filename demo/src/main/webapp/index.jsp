@@ -11,6 +11,12 @@
 <!--print by html-->
 <h2>Hi the World!  ---by html</h2>
 <br/>
+<h3>
+  <%
+    out.println("Hello world. --written by out.println()");
+  %>
+</h3>
+<br/>
 <a href="hello-servlet">Visit Hello Servlet</a>
 </body>
 </html>

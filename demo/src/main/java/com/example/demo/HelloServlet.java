@@ -24,7 +24,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<body>");
         out.println("<h1>" + message + "</h1>");
         out.println("<h3>"+ anotherMessage+"</h3>");
-        out.println("<h3>\n<%! \n out.println(\"hello world. --written by the out.println\");\n %>\n </h3>");// not success
+        out.println("<h3>\n<% \n out.println(\"hello world. --written by the out.println\");\n %>\n </h3>");// not success
         out.println("</body></html>");
     }
 
