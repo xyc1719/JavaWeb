@@ -13,7 +13,7 @@
 <br/>
 <h3>
   <%
-    out.println("Hello world. --written by out.println()");
+    System.out.println("Hello world. --written by out.println()");
   %>
 </h3>
 <br/>
